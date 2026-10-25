@@ -28,11 +28,10 @@ A comprehensive Spring Boot application for generating video reels from multiple
 - CORS support
 
 ### 📊 Database
-- Oracle Database integration
+- MySQL database integration
 - JPA/Hibernate ORM
 - Transaction management
 - Connection pooling
-- Migration support
 
 ### 🛠️ Additional Features
 - Global exception handling
@@ -50,7 +49,7 @@ A comprehensive Spring Boot application for generating video reels from multiple
 - **Language**: Java 17
 - **Framework**: Spring Boot 3.1.5
 - **Security**: Spring Security, JWT (JJWT)
-- **Database**: Oracle Database
+- **Database**: MySQL
 - **ORM**: Hibernate/JPA
 - **Build Tool**: Maven
 - **Logging**: SLF4J/Logback
@@ -298,7 +297,7 @@ Response: 200 OK
 ### Prerequisites
 - Java 17 or higher
 - Maven 3.6+
-- Oracle Database 11g or higher
+- MySQL 8.0 or higher
 - Git
 
 ### Steps
