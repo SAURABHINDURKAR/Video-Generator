@@ -20,12 +20,12 @@ import com.videogenerator.entity.User;
 import com.videogenerator.entity.Video;
 import com.videogenerator.repository.UploadHistoryRepository;
 
-import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Service
 @Slf4j
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class UploadService {
 
     private final UploadHistoryRepository uploadHistoryRepository;
