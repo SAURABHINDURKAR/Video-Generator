@@ -528,9 +528,11 @@ Solution: Increase upload.max-file-size in application.properties
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+3. Add a modified file from your local to repo (`git add src/main/java/com/videogenerator/config/file_name.java`)
+4. For check your changes added or not (`git diff --cached`) 
+5. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+6. Push to the branch (`git push origin feature/AmazingFeature`)
+7. Open a Pull Request
 
 ---
 
