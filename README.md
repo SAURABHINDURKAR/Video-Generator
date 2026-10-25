@@ -108,22 +108,12 @@ POST /api/auth/register
 Content-Type: application/json
 
 {
-  "username": "john_doe",
-  "email": "john@example.com",
-  "password": "SecurePass123!",
-  "fullName": "John Doe"
+  // FIND ATTCHED WORD FILE FOR OUTPUTS
 }
 
 Response: 201 Created
 {
-  "success": true,
-  "message": "User registered successfully",
-  "data": {
-    "token": "eyJhbGciOiJIUzUxMi...",
-    "type": "Bearer",
-    "userId": 1,
-    "username": "john_doe",
-    "email": "john@example.com"
+ // FIND ATTCHED WORD FILE FOR OUTPUTS
   }
 }
 ```
@@ -573,8 +563,8 @@ For support, email isaurabh36@gmail.com or open an issue on GitHub.
 - Role-based access control
 - Comprehensive REST API
 - Global exception handling
-- Database integration with Oracle
+- Database integration with MySQL
 
 ---
 
-**Last Updated**: 27 September 2026
+**Last Updated**: 25 Octomber 2026
